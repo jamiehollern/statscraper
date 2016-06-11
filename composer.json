@@ -1,0 +1,7 @@
+{
+  "name": "statscraper",
+  "require": {
+    "php": ">=5.6",
+    "mmucklo/krumo": "*"
+  }
+}

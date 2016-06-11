@@ -1,0 +1,82 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "e75bdf91cc56811abb57ad26d03b6afc",
+    "content-hash": "9dd8c3e933b2e75e9b67601ca0471646",
+    "packages": [
+        {
+            "name": "mmucklo/krumo",
+            "version": "v0.5.7",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mmucklo/krumo.git",
+                "reference": "133a5b2382ef8b9b2537f6049964c8d88c5e5ad1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mmucklo/krumo/zipball/133a5b2382ef8b9b2537f6049964c8d88c5e5ad1",
+                "reference": "133a5b2382ef8b9b2537f6049964c8d88c5e5ad1",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.2.17"
+            },
+            "require-dev": {
+                "fabpot/php-cs-fixer": "dev-master",
+                "phpmd/phpmd": "dev-master"
+            },
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "class.krumo.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "LGPL"
+            ],
+            "authors": [
+                {
+                    "name": "Kaloyan K. Tsvetkov",
+                    "email": "kaloyan@kaloyan.info"
+                },
+                {
+                    "name": "Stefan Thomas",
+                    "email": "moon@justmoon.de"
+                },
+                {
+                    "name": "Matthew J. Mucklo",
+                    "email": "mmucklo@gmail.com"
+                },
+                {
+                    "name": "Scott Baker",
+                    "email": "scott@perturb.org"
+                }
+            ],
+            "description": "KRUMO - version 2.0 of print_r(); and var_dump(); (with new updates)",
+            "keywords": [
+                "debug",
+                "debugging",
+                "krumo",
+                "pretty",
+                "print",
+                "print_r",
+                "var_dump"
+            ],
+            "time": "2016-03-15 07:21:38"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "php": ">=5.6"
+    },
+    "platform-dev": []
+}
