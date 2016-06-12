@@ -1,0 +1,104 @@
+{
+  "match": {
+    "goalscorers": {
+      "home": [
+        "J Hartson (1, 23)",
+        "J Mjallby (90+2)"
+      ],
+      "away": [
+        "T McManus (37, 60)"
+      ]
+    },
+    "date": "Sunday 2nd March 2003",
+    "home_team": "Celtic",
+    "away_team": "Hibernian",
+    "ft_home_goals": "3",
+    "ft_away_goals": "2",
+    "ht_home_goals": "2",
+    "ht_away_goals": "1"
+  },
+  "extra_info": {
+    "Attendance": "57,512",
+    "Venue": "Celtic Park"
+  },
+  "stats": {
+    "Goals": {
+      "home": "3",
+      "away": "2"
+    },
+    "Assists": {
+      "home": "3",
+      "away": "0"
+    },
+    "Shots": {
+      "home": "13",
+      "away": "6"
+    },
+    "On Target": {
+      "home": "9",
+      "away": "4"
+    },
+    "Off Target": {
+      "home": "4",
+      "away": "2"
+    },
+    "Corners": {
+      "home": "6",
+      "away": "5"
+    },
+    "Fouls": {
+      "home": "12",
+      "away": "18"
+    }
+  },
+  "squads": {
+    "home": {
+      "formation": "3-5-2",
+      "first_11": {
+        "26": "Javier Sanchez Broto",
+        "5": "Joos Valgaeren",
+        "35": "Johan Mjallby",
+        "40": "Stephen Crainey",
+        "8": "Alan Thompson",
+        "14": "Paul Lambert",
+        "18": "Neil Lennon",
+        "19": "Stiliyan Petrov",
+        "10": "John Hartson",
+        "17": "Didier Agathe",
+        "29": "Shaun Maloney"
+      },
+      "substitutes": {
+        "22": "David Marshall",
+        "4": "Jackie McNamara",
+        "23": "Stanislav Varga",
+        "3": "Momo Sylla",
+        "30": "Steve Guppy"
+      }
+    },
+    "away": {
+      "formation": "3-5-2",
+      "first_11": {
+        "13": "Daniel Andersson",
+        "5": "Gary Smith",
+        "6": "Garry O'Connor",
+        "12": "Derek Townsley",
+        "14": "Mathias Doumbe",
+        "19": "Matthias Jack",
+        "25": "Paul Fenwick",
+        "8": "Grant Brebner",
+        "7": "Tom McManus"
+      },
+      "substitutes": {
+        "7": "Frederic Arpinon",
+        "11": "John O'Neill",
+        "10": "Derek Riordan",
+        "14": "Mixu Paatelainen"
+      }
+    }
+  },
+  "incidents": {
+    "substitutions": [],
+    "yellow cards": [],
+    "red cards": []
+  }
+}
