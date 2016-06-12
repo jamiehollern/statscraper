@@ -11,18 +11,18 @@ if ($url) {
   $sxml = simplexml_import_dom($doc);
   // Get all of the divs with fixtures in them.
   $fixture_divs = $sxml->body->xpath('//div[@class="fixtures"]');
-  $links = [];
+  $data = [];
   // Iterate through them.
   foreach ($fixture_divs as $div) {
     $teams = $div->xpath('//div[@class="teams"]');
     foreach ($teams as $team) {
       $fixture = (string) $team->a->attributes()->href;
-      $links[] = 'http://spfl.co.uk' . $fixture;
+      $data[] = 'http://spfl.co.uk' . $fixture;
     }
   }
-  $links = array_unique($links);
-  if ($links) {
-    $json = json_encode($links);
+  $data = array_unique($data);
+  if ($data) {
+    $json = json_encode($data);
     $fixtures_path = './data/fixtures';
     if (!file_exists($fixtures_path)) {
       mkdir($fixtures_path);
