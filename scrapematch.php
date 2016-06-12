@@ -134,7 +134,7 @@ if ($filename) {
           for ($i = 0; $i < count($squad->div); $i++) {
             $selection = ($i < 11) ? 'first_11' : 'substitutes';
             $squad_no = (int) rtrim((string) $squad->div[$i]->span[0], '.');
-            $data['squads'][$squad_name][$selection][$squad_no] = (string) $squad->div[$i];
+            $data['squads'][$squad_name][$selection][] = [$squad_no, (string) $squad->div[$i]];
           }
         }
         // Incidents.
